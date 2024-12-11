@@ -32,6 +32,9 @@ module.exports = {
     new ModuleFederationPlugin({
       name: 'bodyfrontent',
       filename: 'remoteEntry.js',
+      remotes: {
+        reducersharedstorage: 'reducersharedstorage@http://localhost:3004/remoteEntry.js',
+      },
       exposes: {
         './Body': './src/App.js',
       },

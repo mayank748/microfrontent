@@ -1,5 +1,5 @@
 {
-  "name": "bodyfrontent",
+  "name": "reducersharedstorage",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,8 +8,8 @@
     "module-federation-plugin": "^0.8.4",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "react-redux": "^9.2.0",
     "react-scripts": "5.0.1",
+    "reducers": "^3.0.0-alpha",
     "redux": "^5.0.1",
     "web-vitals": "^4.2.4",
     "webpack": "^5.97.1",
@@ -18,8 +18,10 @@
     "webpack-merge": "^6.0.1"
   },
   "scripts": {
-    "start": "webpack serve --config webpack.config.js",
-    "build": "webpack --config webpack.config.js"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [

@@ -8,7 +8,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
-    publicPath: 'http://localhost:3000/',
+    publicPath: 'http://localhost:3004/',
   },
   module: {
     rules: [
@@ -30,12 +30,10 @@ module.exports = {
   },
   plugins: [
     new ModuleFederationPlugin({
-      name: 'ecom-micro-frontent',
-      remotes: {
-        headerfrontent: 'headerfrontent@http://localhost:3001/remoteEntry.js',
-        footerfrontent: 'footerfrontent@http://localhost:3002/remoteEntry.js',
-        bodyfrontent: 'bodyfrontent@http://localhost:3003/remoteEntry.js',
-        reducersharedstorage: 'reducersharedstorage@http://localhost:3004/remoteEntry.js',
+      name: 'reducersharedstorage',
+      filename: 'remoteEntry.js',
+      exposes: {
+         './SharedStore': './src/App.js'
       },
       shared: {
         react: {eager: true, singleton: true, requiredVersion: '^18.0.0' },
@@ -50,15 +48,10 @@ module.exports = {
     extensions: ['.js', '.jsx'],
   },
   devServer: {
-    port: 3000,
-    historyApiFallback: {
-      disableDotRule: true,
-    },
+    port: 3004,
+    historyApiFallback: true,
     static: {
       directory: path.join(__dirname, 'public'),
     },
-    headers: {
-      'Access-Control-Allow-Origin': '*',
-    },
-  },
+  },  
 };
