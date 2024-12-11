@@ -8,14 +8,14 @@ const App = () => {
 
   const latestValue = useSelector((state) => state.sendIncremntedValue);
 
-  const [newvalue, setNewValue] = useState(latestValue);
+  // const [newvalue, setNewValue] = useState(latestValue);
 
   useEffect(() => { }, [newvalue])
 
-  const sendIncremntedValue = () => {
-    newvalue = latestValue + 1
-    setNewValue(newvalue);
-    dispatch(setIncremntedValue(newvalue));
+  const updateIncremntedValue = () => {
+    // newvalue = latestValue + 1
+    // setNewValue(newvalue);
+    dispatch(setIncremntedValue(5));
   };
 
   return <div className='App-header'>
@@ -23,7 +23,7 @@ const App = () => {
       Hello from Header App!
     </div>
     <div>
-      <button onClick={sendIncremntedValue}>Increment value</button>
+      <button onClick={updateIncremntedValue}>Increment value</button>
     </div>
   </div>;
 };
