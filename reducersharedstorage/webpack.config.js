@@ -33,11 +33,13 @@ module.exports = {
       name: 'reducersharedstorage',
       filename: 'remoteEntry.js',
       exposes: {
-         './SharedStore': './src/App.js'
+         './store': './src/store.js'
       },
       shared: {
         react: {eager: true, singleton: true, requiredVersion: '^18.0.0' },
         "react-dom": { eager: true,singleton: true, requiredVersion: '^18.0.0' },
+        "react-redux": { singleton: true, eager: true, requiredVersion: '^8.0.0' },
+        "@reduxjs/toolkit": { singleton: true, eager: true, requiredVersion: '^1.0.0' }
       },
     }),
     new HtmlWebpackPlugin({
@@ -50,6 +52,9 @@ module.exports = {
   devServer: {
     port: 3004,
     historyApiFallback: true,
+    headers: {
+      'Access-Control-Allow-Origin': '*',
+    },
     static: {
       directory: path.join(__dirname, 'public'),
     },

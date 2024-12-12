@@ -36,8 +36,11 @@
   box-shadow: '0px 4px 10px rgba(0, 0, 0, 0.2)';
 }
 
-.App-link {
-  color: #61dafb;
+.counter-color-positive {
+  color: #171c1e;
+}
+.counter-color-negative {
+  color: #d52f2f;
 }
 
 @keyframes App-logo-spin {

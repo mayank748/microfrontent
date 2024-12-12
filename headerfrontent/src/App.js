@@ -1,31 +1,26 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
-import { useDispatch, useSelector } from 'react-redux';
-import { sendIncremntedValue } from '../../reducersharedstorage/src/App';
+import useStore from './SharedStore';
 
-const dispatch = useDispatch();
+
 const App = () => {
-
-  const latestValue = useSelector((state) => state.sendIncremntedValue);
-
-  // const [newvalue, setNewValue] = useState(latestValue);
-
-  useEffect(() => { }, [newvalue])
-
-  const updateIncremntedValue = () => {
-    // newvalue = latestValue + 1
-    // setNewValue(newvalue);
-    dispatch(setIncremntedValue(5));
-  };
+  const { count, increment, decrement } = useStore();
+  useEffect(() => { }, [count])
 
   return <div className='App-header'>
     <div>
-      Hello from Header App!
+      Counter App!
     </div>
-    <div>
-      <button onClick={updateIncremntedValue}>Increment value</button>
+    <div className='App-header app-header-button-div'>
+      <div className='app-header-button'>
+        <button onClick={increment}>+</button>
+      </div>
+      <div className='app-header-button'>
+        <button onClick={decrement}>-</button>
+      </div>
     </div>
   </div>;
 };
+
 
 export default App;

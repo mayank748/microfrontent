@@ -32,15 +32,16 @@ module.exports = {
     new ModuleFederationPlugin({
       name: 'bodyfrontent',
       filename: 'remoteEntry.js',
-      remotes: {
-        reducersharedstorage: 'reducersharedstorage@http://localhost:3004/remoteEntry.js',
-      },
       exposes: {
         './Body': './src/App.js',
+      },
+      remotes: {
+        reducersharedstorage: 'reducersharedstorage@http://localhost:3004/remoteEntry.js',
       },
       shared: {
         react: {eager: true, singleton: true, requiredVersion: '^18.0.0' },
         "react-dom": { eager: true,singleton: true, requiredVersion: '^18.0.0' },
+        "react-redux": { singleton: true, eager: true, requiredVersion: '^8.0.0' },
       },
     }),
     new HtmlWebpackPlugin({

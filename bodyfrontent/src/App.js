@@ -1,15 +1,17 @@
-import React from 'react';
+import React, { useState,useEffect } from 'react';
 import './App.css';
-import { useSelector } from 'react-redux';
+import useStore from './SharedStore';
 
 function App() {
 
-  const latestValue = useSelector((state) => state.sendIncremntedValue);
-  useEffect(() => { }, [latestValue])
+  const { count} = useStore();
+  useEffect(() => { }, [count])
 
   return (
     <div className="App-body">
-      Hello from Body App! {latestValue}
+      This is a demo of micro frontend with shared store<br/>
+      Hit + and - button to increase the counter
+      <p className={count>-1?'counter-color-positive':'counter-color-negative'}> {count}</p>
     </div>
   );
 }

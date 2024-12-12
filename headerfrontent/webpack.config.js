@@ -41,6 +41,7 @@ module.exports = {
       shared: {
         react: {eager: true, singleton: true, requiredVersion: '^18.0.0' },
         "react-dom": { eager: true,singleton: true, requiredVersion: '^18.0.0' },
+        'react-redux': { singleton: true, eager: true, requiredVersion: '^8.0.0' },
       },
     }),
     new HtmlWebpackPlugin({

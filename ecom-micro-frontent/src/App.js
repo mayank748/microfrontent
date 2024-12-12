@@ -5,11 +5,13 @@ import BodyApp from './BodyApp';
 
 const App = () => {
   return (
+    // <Provider store={store}>
     <div>
-      <Header/>
-      <BodyApp/>
-      <Footer/>
+      <Header />
+      <BodyApp />
+      <Footer />
     </div>
+    //</Provider>
   );
 };
 
