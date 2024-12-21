@@ -1,0 +1,153 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\91750\\Documents\\microfrontent\\Micro-frontentMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EE86867F-07EF-4B9C-8B23-6CBFD4CF12B6}|Micro-frontentMVC\\Micro-frontentMVC.csproj|c:\\users\\91750\\documents\\microfrontent\\micro-frontentmvc\\micro-frontentmvc\\views\\home\\redirecttocounterapp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE86867F-07EF-4B9C-8B23-6CBFD4CF12B6}|Micro-frontentMVC\\Micro-frontentMVC.csproj|solutionrelative:micro-frontentmvc\\views\\home\\redirecttocounterapp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE86867F-07EF-4B9C-8B23-6CBFD4CF12B6}|Micro-frontentMVC\\Micro-frontentMVC.csproj|c:\\users\\91750\\documents\\microfrontent\\micro-frontentmvc\\micro-frontentmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE86867F-07EF-4B9C-8B23-6CBFD4CF12B6}|Micro-frontentMVC\\Micro-frontentMVC.csproj|solutionrelative:micro-frontentmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE86867F-07EF-4B9C-8B23-6CBFD4CF12B6}|Micro-frontentMVC\\Micro-frontentMVC.csproj|c:\\users\\91750\\documents\\microfrontent\\micro-frontentmvc\\micro-frontentmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE86867F-07EF-4B9C-8B23-6CBFD4CF12B6}|Micro-frontentMVC\\Micro-frontentMVC.csproj|solutionrelative:micro-frontentmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE86867F-07EF-4B9C-8B23-6CBFD4CF12B6}|Micro-frontentMVC\\Micro-frontentMVC.csproj|c:\\users\\91750\\documents\\microfrontent\\micro-frontentmvc\\micro-frontentmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE86867F-07EF-4B9C-8B23-6CBFD4CF12B6}|Micro-frontentMVC\\Micro-frontentMVC.csproj|solutionrelative:micro-frontentmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE86867F-07EF-4B9C-8B23-6CBFD4CF12B6}|Micro-frontentMVC\\Micro-frontentMVC.csproj|c:\\users\\91750\\documents\\microfrontent\\micro-frontentmvc\\micro-frontentmvc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE86867F-07EF-4B9C-8B23-6CBFD4CF12B6}|Micro-frontentMVC\\Micro-frontentMVC.csproj|solutionrelative:micro-frontentmvc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE86867F-07EF-4B9C-8B23-6CBFD4CF12B6}|Micro-frontentMVC\\Micro-frontentMVC.csproj|c:\\users\\91750\\documents\\microfrontent\\micro-frontentmvc\\micro-frontentmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE86867F-07EF-4B9C-8B23-6CBFD4CF12B6}|Micro-frontentMVC\\Micro-frontentMVC.csproj|solutionrelative:micro-frontentmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE86867F-07EF-4B9C-8B23-6CBFD4CF12B6}|Micro-frontentMVC\\Micro-frontentMVC.csproj|c:\\users\\91750\\documents\\microfrontent\\micro-frontentmvc\\micro-frontentmvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE86867F-07EF-4B9C-8B23-6CBFD4CF12B6}|Micro-frontentMVC\\Micro-frontentMVC.csproj|solutionrelative:micro-frontentmvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE86867F-07EF-4B9C-8B23-6CBFD4CF12B6}|Micro-frontentMVC\\Micro-frontentMVC.csproj|c:\\users\\91750\\documents\\microfrontent\\micro-frontentmvc\\micro-frontentmvc\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE86867F-07EF-4B9C-8B23-6CBFD4CF12B6}|Micro-frontentMVC\\Micro-frontentMVC.csproj|solutionrelative:micro-frontentmvc\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\91750\\Documents\\microfrontent\\Micro-frontentMVC\\Micro-frontentMVC\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Micro-frontentMVC\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\91750\\Documents\\microfrontent\\Micro-frontentMVC\\Micro-frontentMVC\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Micro-frontentMVC\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T11:29:33.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RedirectToCounterApp.cshtml",
+              "DocumentMoniker": "C:\\Users\\91750\\Documents\\microfrontent\\Micro-frontentMVC\\Micro-frontentMVC\\Views\\Home\\RedirectToCounterApp.cshtml",
+              "RelativeDocumentMoniker": "Micro-frontentMVC\\Views\\Home\\RedirectToCounterApp.cshtml",
+              "ToolTip": "C:\\Users\\91750\\Documents\\microfrontent\\Micro-frontentMVC\\Micro-frontentMVC\\Views\\Home\\RedirectToCounterApp.cshtml",
+              "RelativeToolTip": "Micro-frontentMVC\\Views\\Home\\RedirectToCounterApp.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T11:29:28.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\91750\\Documents\\microfrontent\\Micro-frontentMVC\\Micro-frontentMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Micro-frontentMVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\91750\\Documents\\microfrontent\\Micro-frontentMVC\\Micro-frontentMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Micro-frontentMVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T11:09:55.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\91750\\Documents\\microfrontent\\Micro-frontentMVC\\Micro-frontentMVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Micro-frontentMVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\91750\\Documents\\microfrontent\\Micro-frontentMVC\\Micro-frontentMVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Micro-frontentMVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T11:09:29.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\91750\\Documents\\microfrontent\\Micro-frontentMVC\\Micro-frontentMVC\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Micro-frontentMVC\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\91750\\Documents\\microfrontent\\Micro-frontentMVC\\Micro-frontentMVC\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Micro-frontentMVC\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T11:09:22.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\91750\\Documents\\microfrontent\\Micro-frontentMVC\\Micro-frontentMVC\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Micro-frontentMVC\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\91750\\Documents\\microfrontent\\Micro-frontentMVC\\Micro-frontentMVC\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Micro-frontentMVC\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T11:09:17.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\91750\\Documents\\microfrontent\\Micro-frontentMVC\\Micro-frontentMVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Micro-frontentMVC\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\91750\\Documents\\microfrontent\\Micro-frontentMVC\\Micro-frontentMVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Micro-frontentMVC\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAmwBkAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T10:48:17.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\91750\\Documents\\microfrontent\\Micro-frontentMVC\\Micro-frontentMVC\\Program.cs",
+              "RelativeDocumentMoniker": "Micro-frontentMVC\\Program.cs",
+              "ToolTip": "C:\\Users\\91750\\Documents\\microfrontent\\Micro-frontentMVC\\Micro-frontentMVC\\Program.cs",
+              "RelativeToolTip": "Micro-frontentMVC\\Program.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAAD8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T10:42:51.919Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+﻿@{
+    ViewData["Title"] = "Counter App";
+}
+
+<div id="counterApp">
+    <div id="root-micro"></div>
+</div>
+
+<!-- Load the React app's bundled JavaScript -->
+@if (Context.Request.Path.StartsWithSegments("/home/redirecttocounterapp"))
+{
+    <script src="http://localhost:3000/bundle.js"></script> <!-- React app's bundled JavaScript -->
+
+    <script>
+        // Wait for the DOM to be fully loaded before trying to inject React
+        document.addEventListener("DOMContentLoaded", function () {
+            const counterAppElement = document.getElementById('counterApp');
+
+            if (counterAppElement) {
+                // Dynamically create a div element where React will be rendered
+                const reactRoot = document.createElement('div');
+                reactRoot.id = 'root-micro';  // Create a div where React app will be rendered
+                counterAppElement.appendChild(reactRoot);
+
+                // Check if CounterApp is globally available and render it
+                if (typeof CounterApp !== 'undefined') {
+                    // Render the CounterApp component inside the 'root-micro' div
+                    ReactDOM.render(<App />, reactRoot);
+                } else {
+                    console.error("CounterApp is not available. Make sure it's exposed globally in your React app.");
+                }
+            } else {
+                console.error("The element 'counterApp' was not found in the DOM.");
+            }
+        });
+    </script>
+}

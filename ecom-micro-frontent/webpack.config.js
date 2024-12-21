@@ -55,7 +55,7 @@ module.exports = {
       disableDotRule: true,
     },
     static: {
-      directory: path.join(__dirname, 'public'),
+      directory: path.resolve(__dirname, 'public'),
     },
     headers: {
       'Access-Control-Allow-Origin': '*',
